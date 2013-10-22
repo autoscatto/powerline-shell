@@ -5,6 +5,17 @@ class DefaultColor:
     """
     USERNAME_FG = 250
     USERNAME_BG = 240
+    ROOT_FG     = 88
+    ROOT_BG     = 240
+    
+    GIT_BG  =   15
+    GIT_BRANCH  = 16
+    GIT_REMOTE  = 199
+    GIT_STAGED  = 76
+    GIT_CONFLI  = 196
+    GIT_CHANGE  = 63
+    GIT_UNTRAC  = 200
+    GIT_CLEAN   = 76
 
     HOSTNAME_FG = 250
     HOSTNAME_BG = 238
