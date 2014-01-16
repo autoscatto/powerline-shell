@@ -9,7 +9,7 @@ def add_username_segment():
         user_prompt = ' %s ' % os.getenv('USER')
 
     if os.geteuid() == 0:
-        powerline.append(user_prompt, Color.ROOT_FG, Color.ROOT_BG)
+        powerline.append(user_prompt, Color.ROOT_BG, Color.ROOT_FG)
     else:
         powerline.append(user_prompt, Color.USERNAME_FG, Color.USERNAME_BG)
 
